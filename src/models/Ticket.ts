@@ -66,6 +66,10 @@ const TicketSchema: Schema = new Schema({
   activo: { 
     type: Boolean, 
     default: true 
+  },
+  archivado: { 
+  type: Boolean, 
+  default: false 
   }
 }, {
   timestamps: true

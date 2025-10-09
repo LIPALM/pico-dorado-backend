@@ -8,10 +8,11 @@ import {
   anularTicket,
   obtenerReporteDiario
 } from '../controllers/ticketController';
+import { validarTicket } from '../middleware/validation';  // ← NUEVO
 
 const router = express.Router();
 
-router.post('/', crearTicket);
+router.post('/', validarTicket, crearTicket);  // ← AGREGADO validarTicket
 router.get('/activos', obtenerTicketsActivos);
 router.get('/todos', obtenerTodosTickets);
 router.get('/reporte-diario', obtenerReporteDiario);
