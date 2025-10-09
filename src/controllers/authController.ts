@@ -107,3 +107,14 @@ export const obtenerPerfil = async (req: Request, res: Response) => {
     res.status(500).json({ message: 'Error al obtener perfil', error });
   }
 };
+
+// Obtener todos los usuarios (solo para desarrollo/admin)
+export const obtenerUsuarios = async (req: Request, res: Response) => {
+  try {
+    const usuarios = await User.find().select('-password');
+    res.json(usuarios);
+  } catch (error) {
+    console.error('Error al obtener usuarios:', error);
+    res.status(500).json({ message: 'Error al obtener usuarios', error });
+  }
+};
