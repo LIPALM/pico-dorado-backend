@@ -1,4 +1,4 @@
-# 🍗 Pico Dorado - Sistema POS (Punto de Venta)
+# Pico Dorado - Sistema POS (Punto de Venta)
 
 > Sistema completo de gestión de pedidos para restaurante de comida rápida especializado en pollo broaster
 
@@ -22,7 +22,7 @@
 - [Variables de Entorno](#variables-de-entorno)
 - [Ejecución](#ejecución)
 - [Usuario de Prueba](#usuario-de-prueba)
-- [Endpoints de la API](#endpoints-de-la-api)
+- [Endpoints de la API y Pruebas](#endpoints-de-la-api-y-pruebas)
 - [Características Implementadas](#características-implementadas)
 - [Estructura de Base de Datos](#estructura-de-base-de-datos)
 - [Solución de Problemas](#solución-de-problemas)
@@ -30,7 +30,7 @@
 
 ----------------------------------------------------------------------------------------------------
 
-## Descripción
+## 📖 Descripción
 
 Pico Dorado es un sistema POS (Punto de Venta) completo desarrollado para gestionar pedidos en restaurantes de comida rápida.
 
@@ -46,7 +46,7 @@ Pico Dorado es un sistema POS (Punto de Venta) completo desarrollado para gestio
 
 ----------------------------------------------------------------------------------------------------
 
-## Tecnologías Utilizadas 
+## 🚀 Tecnologías Utilizadas 
 
 ### Backend
 
@@ -77,7 +77,7 @@ Pico Dorado es un sistema POS (Punto de Venta) completo desarrollado para gestio
 
 ----------------------------------------------------------------------------------------------------
 
-## Estructura del Proyecto
+## 📁 Estructura del Proyecto
 
 ### Backend (`pico-dorado-backend/`)
 ```
@@ -120,7 +120,7 @@ pico-dorado/
 ```
 ----------------------------------------------------------------------------------------------------
 
-## Requisitos Previos
+## ⚙️ Requisitos Previos
 
 Antes de comenzar, asegúrate de tener instalado:
 
@@ -137,7 +137,7 @@ git --version    # Debe mostrar la versión instalada
 ```
 ----------------------------------------------------------------------------------------------------
 
-## Instalación
+## 📦 Instalación
 
 ### 1. Clonar el repositorio
 ```bash
@@ -158,7 +158,7 @@ npm install
 ```
 ----------------------------------------------------------------------------------------------------
 
-## Variables de Entorno
+## 🔐 Variables de Entorno
 
 ### Backend
 
@@ -189,7 +189,7 @@ NODE_ENV=development
 
 ----------------------------------------------------------------------------------------------------
 
-## Ejecución
+## ▶️ Ejecución
 
 ### Opción 1: Ejecutar por separado
 
@@ -223,7 +223,7 @@ Deberías ver:
 
 ----------------------------------------------------------------------------------------------------
 
-## Usuario de Prueba
+## 👤 Usuario de Prueba
 
 Para facilitar las pruebas, puedes crear un usuario con estos datos:
 ```json
@@ -236,7 +236,7 @@ Para facilitar las pruebas, puedes crear un usuario con estos datos:
 ```
 O usa el endpoint de registro para crear tu propio usuario.
 
----
+----------------------------------------------------------------------------------------------------
 
 ## 📡 Endpoints de la API y Pruebas
 
@@ -293,7 +293,7 @@ Estados válidos: `"En Preparación"`, `"Listo"`, `"Entregado"`
 ![alt text](screenshots/image-10.png)
 
 ----------------------------------------------------------------------------------------------------
-## Características Implementadas
+## ✨ Características Implementadas
 
 ### Seguridad
 - ✅ Autenticación JWT (JSON Web Tokens)
@@ -330,7 +330,7 @@ Estados válidos: `"En Preparación"`, `"Listo"`, `"Entregado"`
 - ✅ Validaciones en cliente y servidor
 
 ----------------------------------------------------------------------------------------------------
-## Estructura de Base de Datos
+## 🗄️ Estructura de Base de Datos
 
 ### Colección: `users`
 ```typescript
@@ -368,7 +368,7 @@ Estados válidos: `"En Preparación"`, `"Listo"`, `"Entregado"`
 }
 ```
 ----------------------------------------------------------------------------------------------------
-## Solución de Problemas Comunes
+## ⚠️ Solución de Problemas Comunes
 
 ### Error: "Cannot connect to MongoDB"
 **Causa:** URI de MongoDB incorrecta o red bloqueada  
@@ -439,7 +439,7 @@ Octubre 2025
 - GitHub: [LIPALM](https://github.com/LIPALM)
 
 - Email: jose.martinez@uab.edu.bo
-- GitHub: [tu-usuario](https://github.com/tu-usuario)
+- GitHub: [jhosep091](https://github.com/jhosep091)
 
 - Email: jorge.chipana@uab.edu.bo
 - GitHub: [chipans](https://github.com/chipans)
