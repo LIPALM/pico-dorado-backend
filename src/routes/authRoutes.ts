@@ -8,6 +8,6 @@ const router = express.Router();
 router.post('/registro', validarRegistro, registrarUsuario);
 router.post('/login', validarLogin, login);
 router.get('/perfil', verificarToken, obtenerPerfil);
-router.get('/usuarios', obtenerUsuarios);  // ← AGREGAR ESTA LÍNEA
+router.get('/usuarios', verificarToken, obtenerUsuarios);  // ← AGREGAR ESTA LÍNEA
 
 export default router;
