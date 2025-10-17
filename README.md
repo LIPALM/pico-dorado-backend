@@ -424,9 +424,9 @@ Este proyecto es de uso académico para la asignatura de Tecnologías en Interne
 
 ## 👨‍💻 Autores
 
-- **Lucas Lipa Matta** - Backend & Database
-- **Jose Enrique Martinez Rojas** - Frontend
-- **Jorge Chipana Flores** - Full Stack
+- **Lucas Lipa Matta** - Full Stack
+- **Jose Enrique Martinez Rojas** - Backend & Database
+- **Jorge Chipana Flores** - Fronted
 
 Proyecto de fin de semestre - Tecnologías en Internet  
 Octubre 2025
